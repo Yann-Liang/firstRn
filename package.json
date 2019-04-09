@@ -3,12 +3,14 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"start": "node node_modules/react-native/local-cli/cli.js start --port=8088",
 		"test": "jest"
 	},
 	"dependencies": {
 		"react": "16.0.0-alpha.6",
-		"react-native": "0.44.3"
+		"react-native": "0.44.3",
+		"react-redux": "^5.0.7",
+		"redux": "^4.0.0"
 	},
 	"devDependencies": {
 		"babel-jest": "22.4.4",
